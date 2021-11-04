@@ -1,0 +1,78 @@
+html,
+body {
+    font-family: Roboto;
+    background-color: #ebebeb;
+    font-size: 12px;
+}
+.text-center {
+    text-align: center;
+}
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+.bg-yellow {
+    background-color: #eac926;
+}
+.bg-dark-grey {
+    background-color: #666;
+}
+.bg-grey {
+    background-color: #ebebeb;
+}
+
+.bg-white {
+    background-color: #ffff;
+}
+.bg-green {
+    background-color: #39b54a;
+}
+.bg-blue {
+    background-color: #1259c3;
+}
+.icon {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition: all 0.2s;
+    animation: reverse;
+}
+
+.icon:hover {
+    color: black;
+    transform: scale(120%);
+}
+
+.font-small {
+    font-size: 12px;
+}
+.font-noraml {
+    font-weight: normal;
+}
+.font-heading {
+    font-size: 24px;
+}
+
+.font-price {
+    font-size: 18px;
+}
+
+.font-desc {
+    font-size: 16px;
+    color: #39b54a;
+}
+.font-title {
+    font-size: 16px;
+}
+
+.burger-menu {
+    text-align: center;
+    padding: 10px;
+}
+
+.description {
+    margin-top: 5px;
+}

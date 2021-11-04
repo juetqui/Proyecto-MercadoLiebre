@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.burger-menu i {
+    color: white;
+    margin: 10px auto;
+    background-color: blue;
+    padding: 5px;
+    font-size: 28px;
+    border-radius: 5px;
+    width: 45px;
+}
+
+.main {
+    width: 90%;
+    margin: 0% auto;
+}
+
+.p {
+    padding: 16px;
+}
+
+.p-top {
+    padding-top: 10%;
+}
+
+.p-bottom {
+    padding-bottom: 5%;
+}
+
+.product {
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.product .product-content {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .product-content .price {
+    width: 30%;
+}
+.product .product-content .discount {
+    width: 70%;
+}
+.truck-icon {
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+    background-color: white;
+    transition: all 0.5s;
+    animation: reverse;
+}
+.product:hover .truck-icon {
+    transform: rotateZ(-90deg);
+}
+
+nav.navbar ul li {
+    list-style: none;
+}
+.navbar {
+    font-size: 14px;
+}
+
+nav.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.shadows {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100, 0);
+    transition: all 0.5s;
+    animation: reverse;
+}
+
+.shadows:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.card {
+    width: 100%;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    padding-left: 5%;
+}
+
+.sb-1 {
+    flex-grow: 1;
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 5px 0px 0px 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border: 5px;
+    width: 5%;
+}
+
+.button {
+    padding: 10px;
+    border: 20px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+}
+
+.bar-login {
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 5px;
+    width: 100%;
+    text-align: start;
+}
+
+.boton-enviar {
+    background-color: #1259c3;
+    color: white;
+    border: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+
+    transition: all 0.2s;
+    animation: reverse;
+}
+
+.boton-enviar:hover {
+    background-color: seagreen;
+}
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.display-flex-nowrap {
+    display: block;
+}
